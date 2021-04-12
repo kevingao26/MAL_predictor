@@ -2,7 +2,7 @@
 Scrapes MAL(MyAnimeList) profiles, predicts shows for user based on their scores, and creates network visualizations for a set of shows.
 
 
-# Workflow:
+## Workflow:
 
 1. PageScrape -> scrapes information for a single show. Used as the basis for other components.
 2. UserScraper -> scrapes all the shows from a user's profile. (Prereq: 1)
